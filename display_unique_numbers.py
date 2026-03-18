@@ -16,3 +16,7 @@ def display_unique_numbers():
         # Kapag eksaktong isa lang ang bilang niya sa loob ng list (walang duplicate)
         if number_list.count(current_number) == 1:
             print("\033[93m" + str(current_number) + "\033[0m")
+# Ito yung magsisilbing switch para umandar yung script
+if __name__ == "__main__":
+    # Tawagin yung function na ginawa natin sa taas
+    display_unique_numbers()
