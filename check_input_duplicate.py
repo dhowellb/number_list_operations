@@ -26,3 +26,7 @@ def check_input_duplicate():
             print("\033[93mInvalid input detected. Stopping program.\033[0m")
             # Yung 'break' ang papatay sa 'while True' loop para makapag-stop na nang maayos
             break
+# Ito yung magsisilbing switch para umandar yung script
+if __name__ == "__main__":
+    # Tawagin yung function para mag-start na yung infinite loop
+    check_input_duplicate()
