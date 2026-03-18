@@ -21,3 +21,7 @@ def display_first_entries():
             print("\033[93m" + str(current_number) + "\033[0m")
             # Tapos ilagay natin siya sa 'seen_numbers' box para pag naulit, i-i-skip na niya!
             seen_numbers.append(current_number)
+# Ito yung magsisilbing switch para umandar yung script
+if __name__ == "__main__":
+    # Tawagin yung function na ginawa natin sa taas
+    display_first_entries()
